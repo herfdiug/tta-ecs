@@ -34,7 +34,22 @@ Read it at full size: bands stack top to bottom, boxes read left to right.
 
 ## Status
 
-Design only. This repository holds the diagram; it does not claim a finished implementation. The value is the ordering and the query boundaries — those are the parts that are expensive to change later.
+Prototype, not a finished game. The diagram is the design; a slice of it runs in a test place:
+
+- **Implemented:** `Idle`, `Patrol`, `Chase`. The agent idles, patrols, notices a player and chases.
+- **Still design only:** `Attack`, the cooldown pair, and the events band.
+
+### Running slice
+
+![Test place: two agents, vision rays and a patrol path](media/tta-prototype-poster.jpg)
+
+**[Watch the clip — 45 s, no audio](media/tta-prototype.mp4)**
+
+Filmed in the test place with `Idle`, `Patrol` and `Chase` live. The cyan lines are the agent's debug drawing, still switched on: they are how you can see what it thinks it can see, and the dotted markers are its waypoints.
+
+What is not there yet is also the honest part: the place around it is half-built (placeholder objective text, no attack), and the debug output prints a value every frame instead of on a timer.
+
+The value of the diagram is the ordering and the query boundaries — the parts that are expensive to change later.
 
 The first version stacked three copies of the same table — present, added/changed, removed — which made the same label appear three times and left section headers sitting inside each other's rows. This version keeps one copy of each concept, puts the bands in reading order, and folds the per-state deltas into the tags and state-change bands. The per-state "what gets added, what gets removed" detail is not shown here; that is the next diagram.
 
