@@ -50,6 +50,7 @@ The systems folder out of the test place, published as it runs there. The paths 
 |---|---|
 | `src/Modules/World.luau` | the Jecs world, plus the shared types (`Character`, `Heart`, `VisionInfo`) |
 | `src/Modules/EntityService.luau` | get-or-add for entities, tags and components, by name |
+| `src/Modules/LuauFuturesExtension.luau` | a thin shim over LuauFutures: collect the deferred futures, then poll or await them together |
 | `src/Modules/NodeService.luau` | the waypoint graph `PathfindSystem` builds patrol paths from |
 | `src/Modules/SystemModules/PlayerSystem.luau` | a joining player becomes an entity with `Character` and `Heart` |
 | `src/Modules/SystemModules/ScanSystem.luau` | the `Scanning` band: caches player positions, writes `CharacterDistances`, sets `Prey` inside the instant-chase radius |

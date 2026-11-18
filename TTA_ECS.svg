@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2992" height="1546" viewBox="0 0 2992 1546">
 <rect x="0" y="0" width="2992" height="1546" fill="#ffffff"/>
 <rect x="40" y="40" width="2912" height="64" fill="#1f2328" stroke="#1f2328" stroke-width="1.5"/>
-<text x="1496" y="78.82" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle"><tspan x="1496" dy="0">Tarnished AI — ECS architecture</tspan></text>
+<text x="1496" y="78.82" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle"><tspan x="1496" dy="0">Tarnished NPC — ECS architecture</tspan></text>
 <rect x="40" y="138" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
 <text x="48" y="162.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Required system order — left to right</tspan></text>
 <rect x="40" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
