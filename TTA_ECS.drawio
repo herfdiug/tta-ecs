@@ -1,0 +1,479 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="KjROTHzzRA6KkinzBh4N">
+    <mxGraphModel dx="1890" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7hvSeU1F75VYQFJLLjMQ-1" value="&lt;font&gt;Tarnished AI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="5640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hvSeU1F75VYQFJLLjMQ-5" value="Continuous Target&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Pathfinding&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hvSeU1F75VYQFJLLjMQ-8" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-1" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-2" value="Patrol" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-3" value="Chase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-4" value="Attack" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-10" value="Attacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-11" value="Move to Target Once" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-43" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;States&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="1240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-46" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Systems&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1320" y="160" width="3160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="5160" y="160" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-49" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Necessary Mechanics&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="1240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-50" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Necessary Data&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1320" y="400" width="3120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-51" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-52" value="Pathfinding&lt;div&gt;Once&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-53" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-54" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-55" value="Continuous&lt;div&gt;Pathfinding&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-56" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-57" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-58" value="Attacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="520" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-59" value="CanPathfind" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-62" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Tags / Components&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1360" y="520" width="3040" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-63" value="CanMove" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="760" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-65" value="CanDamage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-69" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Required&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1400" y="640" width="2960" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-70" value="Position : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="1000" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-71" value="Pathfind Target Once" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3Pl8q9T8pf496Va1Da_y-74" value="AgentRadius : Dict" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="880" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jbVvaJcII-xc56QdnXqV-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Added / Changed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1960" width="2950" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jbVvaJcII-xc56QdnXqV-2" value="NextWaypoint : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jbVvaJcII-xc56QdnXqV-3" value="EndPosition : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="1120" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-1" value="Waypoints : {Vector3}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-2" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-3" value="Position : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-5" value="Position : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Events&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="4520" y="160" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKRCGGJw7SSbnT1uePkq-7" value="Blocked Path" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="4520" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-3" value="CanPathfind" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="4520" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Added / Changed&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="4520" y="400" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Removed&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1400" y="3160" width="2950" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-6" value="CanPathfind" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-8" value="Waypoints : {Vector3}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-9" value="NextWaypoint : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-15" value="CanPathfindContinuously" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Removed&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="4520" y="880" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-19" value="CanLogPosition" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-20" value="All" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="680" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-22" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-23" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-24" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-25" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Required System Order&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="40" y="-200" width="2880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-26" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-27" value="Continuous Target&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Pathfinding&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-28" value="Pathfind Target Once" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-29" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-30" value="Attacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-31" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-32" value="Continuous Move to Target" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-34" value="Waypoints : {Vector3}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="4520" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-35" value="Damage : number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-37" value="CanPathfindContinuously" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-38" value="CanPathfind" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-39" value="CanMove" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-40" value="CanScan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-41" value="CanDamage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-42" value="CanLogPosition" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="3880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-44" value="Cooldown" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-45" value="pair(Cooldown, any) : number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-46" value="pair(Cooldown, any) : number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="2180" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-47" value="pair(Cooldown, any) : number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="3380" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y0sVi23BAkC176cusUXn-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2500" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-48" value="if number &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="2080" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y0sVi23BAkC176cusUXn-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2500" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0sVi23BAkC176cusUXn-50" value="if number &amp;lt;= 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="3280" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-1" value="Position : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Twisted query&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1960" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-4" value="CanScan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Player query&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="1960" y="1240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-7" value="Position : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-8" value="IsPlaying" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-16" value="LookVector : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="1120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-21" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2600" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-22" value="CanLogLookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2600" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-23" value="LookVector : Vector3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2600" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-24" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-25" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-26" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-28" value="CanLogLookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="4000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-29" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-30" value="if player is detected" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="2080" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D0KYyUcOaLWPNHqk1xN3-31" value="pair(State, Chase)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="2180" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-2" value="pair(ChangeState, Idle)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-17" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2750" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-18" value="Pathfinding&lt;div&gt;Once&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-19" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-20" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-21" value="Continuous&lt;div&gt;Pathfinding&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-22" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-23" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-24" value="Attacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3230" y="2200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-25" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2750" y="2320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-26" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-27" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-28" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2750" y="2440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-29" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-30" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-32" value="pair(ChangeState, Attack)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-38" value="pair(ChangeState, Patrol)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2920" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-39" value="pair(ChangeState, Chase)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3080" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-50" value="pair(State, Chase)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3070" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMCExtUVb4z7B6Ox6WzZ-59" value="pair(State, Idle)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2750" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-1" value="pair(State, Patrol)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-3" value="Apply Idle Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-4" value="Apply Patrol Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-5" value="Apply Chase Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-6" value="Apply Attack Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-18" value="3 Squares + each gap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-640" width="520" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-21" value="Apply Idle Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-22" value="Apply Patrol Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="2920" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-23" value="Apply Chase Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3080" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-24" value="Apply Attack Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-25" value="Rid Idle Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-26" value="pair(State, Attack)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3230" y="2080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EktNd_6yEmMZeFyALuzW-27" value="pair(ChangeState, any)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="760" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-1" value="pair(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;State, Idle)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-3" value="Rid Patrol Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-4" value="Rid Chase Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-5" value="Rid Attack Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-7" value="pair(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;State, Patrol)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-8" value="pair(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;State, Chase)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-9" value="pair(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;State, Attack)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-10" value="Rid Idle Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-11" value="Rid Patrol Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-12" value="Rid Chase Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-13" value="Rid Attack Behavior" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-15" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-16" value="Pathfinding&lt;div&gt;Once&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-17" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-18" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-19" value="Continuous&lt;div&gt;Pathfinding&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-20" value="Moving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-21" value="Scanning" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-22" value="Attacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-23" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="3520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-24" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-25" value="Get Position" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-26" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="3640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-27" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-28" value="Get LookVector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-29" value="pair(State, Chase)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3720" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-30" value="pair(State, Idle)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-31" value="pair(State, Patrol)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3560" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jYCfq9zjZ4kBW9ZnIU-32" value="pair(State, Attack)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="3280" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
