@@ -1,6 +1,6 @@
 # TTA — ECS design for a combat AI
 
-A whiteboard before the code: one diagram that fixes what the AI's states are, which systems run, what data each system is allowed to read, and the order they must run in.
+The design on one diagram: what the AI's states are, which systems run, what data each system is allowed to read, and the order they must run in.
 
 ![TTA ECS architecture](TTA_ECS.png)
 
