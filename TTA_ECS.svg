@@ -117,7 +117,7 @@
 <rect x="824" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
 <text x="908" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">EndPosition : Vector3</tspan></text>
 <rect x="1020" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
-<text x="1104" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">AgentRadius : Dict</tspan></text>
+<text x="1104" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">AgentParams : Dict</tspan></text>
 <rect x="1216" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
 <text x="1300" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">Damage : number</tspan></text>
 <rect x="40" y="1096" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>

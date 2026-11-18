@@ -19,10 +19,12 @@ Read it at full size: bands stack top to bottom, boxes read left to right.
 | **Systems** | `Get Position`, `Get LookVector`, `Scanning`, `Pathfind Target Once`, `Continuous Target Pathfinding`, `Continuous Move to Target`, `Move to Target Once`, `Moving`, `Attacking`, `Cooldown`. |
 | **Tags / Components** | `CanMove`, `CanScan`, `CanDamage`, `CanPathfind`, `CanPathfindContinuously`, `CanLogPosition`, `CanLogLookVector`, `Cooldown`, `pair(Cooldown, any)`. |
 | **Queries** | `Twisted query` (`Position`, `LookVector`, `CanScan`) and `Player query` (`Position`, `IsPlaying`). A system only sees what its query returns. |
-| **Data written by systems** | `Position : Vector3`, `LookVector : Vector3`, `Waypoints : {Vector3}`, `NextWaypoint : Vector3`, `EndPosition : Vector3`, `AgentRadius : Dict`, `Damage : number`. |
+| **Data written by systems** | `Position : Vector3`, `LookVector : Vector3`, `Waypoints : {Vector3}`, `NextWaypoint : Vector3`, `EndPosition : Vector3`, `AgentParams : Dict`, `Damage : number`. |
 | **Events** | `Blocked Path`, `CanPathfind` — what a system emits instead of calling another system directly. |
 | **Conditions** | `if player is detected`, `if number > 0`, `if number <= 0` — the guards that sit between a query and an action. |
 | **State changes** | `pair(State, Idle / Patrol / Chase / Attack)` written by a query, and `pair(ChangeState, Idle / Patrol / Chase / Attack / any)` applied in one place. |
+
+`AgentParams` is the dictionary you hand to `PathfindingService:CreatePath` — `AgentRadius`, `AgentHeight`, `AgentCanJump`, `WaypointSpacing`. The first version of the diagram called it `AgentRadius`, which was wrong: that's one key inside it, not the whole thing.
 
 ## The three decisions worth reading
 
