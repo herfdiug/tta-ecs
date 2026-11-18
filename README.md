@@ -41,13 +41,13 @@ Prototype, not a finished game. The diagram is the design; a slice of it runs in
 
 ### Running slice
 
-![Test place: two agents, vision rays and a patrol path](media/tta-prototype-poster.jpg)
+![Test place: an agent inside its cyan detection area](media/tta-prototype-poster.jpg)
 
-**[Watch the clip — 45 s, no audio](media/tta-prototype.mp4)**
+**[Watch the clip — 10 s, no audio, cut from a longer recording](media/tta-prototype.mp4)**
 
-Filmed in the test place with `Idle`, `Patrol` and `Chase` live. The cyan lines are the agent's debug drawing, still switched on — they are how you can see what it thinks it can see.
+Filmed in the test place with `Idle`, `Patrol` and `Chase` live. The cyan wireframe around the agent is its detection area — the thing that decides whether a player is inside it. It is drawn by the agent's own debug code, left switched on so the decision is visible instead of assumed.
 
-What is not there yet is also the honest part: the place around it is half-built (placeholder objective text, no attack), and the debug output prints a value every frame instead of on a timer.
+What is not there yet is also the honest part: the place around it is half-built (the objective banner is still placeholder text, and `Attack` does not exist), and the debug output prints once per frame instead of on a timer.
 
 The value of the diagram is the ordering and the query boundaries — the parts that are expensive to change later.
 
