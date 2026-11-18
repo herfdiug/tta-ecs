@@ -2,9 +2,13 @@
 
 A whiteboard before the code: one diagram that fixes what the AI's states are, which systems run, what data each system is allowed to read, and the order they must run in.
 
+![TTA ECS architecture](TTA_ECS.png)
+
 **Why this exists:** a behaviour tree gets rewritten every time a new behaviour appears. With ECS, a behaviour is a set of components plus a system that reads them — so adding "patrol" means adding a system and a tag, not editing an `if` chain. The diagram is the contract that makes that true.
 
-Open `TTA_ECS.drawio` in [diagrams.net](https://app.diagrams.net) or the VS Code Draw.io extension.
+Files: `TTA_ECS.png` (what you're looking at), `TTA_ECS.svg` (same thing, sharp at any zoom), `TTA_ECS.drawio` (the editable source — open it in [diagrams.net](https://app.diagrams.net) or the VS Code Draw.io extension).
+
+Read it at full size: the bands run left to right, one column per concern.
 
 ## Layers in the diagram
 
