@@ -8,19 +8,21 @@ A whiteboard before the code: one diagram that fixes what the AI's states are, w
 
 Files: `TTA_ECS.png` (what you're looking at), `TTA_ECS.svg` (same thing, sharp at any zoom), `TTA_ECS.drawio` (the editable source — open it in [diagrams.net](https://app.diagrams.net) or the VS Code Draw.io extension).
 
-Read it at full size: the bands run left to right, one column per concern.
+Read it at full size: bands stack top to bottom, boxes read left to right.
 
 ## Layers in the diagram
 
 | Band | What it holds |
 |---|---|
-| **States** | `Idle`, `Patrol`, `Chase`, `Attack`, plus `Scanning`, `Pathfinding Once`, `Continuous Pathfinding`, `Moving`, `Attacking` as sub-states. `All` sits at the join. |
-| **Systems** | `Get Position`, `Get LookVector`, `Scanning`, `Pathfind Target Once`, `Continuous Target Pathfinding`, `Continuous Move to Target`, `Moving`, `Attacking`, `Cooldown`. |
-| **Tags / Components** | `CanMove`, `CanScan`, `CanDamage`, `CanPathfind`, `CanPathfindContinuously`, `CanLogPosition`, `CanLogLookVector`, `Cooldown`. |
-| **Data** | `Position : Vector3`, `LookVector : Vector3`, `Waypoints : {Vector3}`, `NextWaypoint : Vector3`, `EndPosition : Vector3`, `AgentRadius : Dict`, `Damage : number`, `pair(Cooldown, any) : number`. |
+| **Required system order** | The order that must hold, left to right: `Get Position`, `Get LookVector`, `Scanning`, `Attacking`, `Pathfind Target Once`, `Continuous Target Pathfinding`, `Moving`, then `Rid ×4` and `Apply ×4` behaviour boxes. Wrong order reads last frame's data. |
+| **States** | `Idle`, `Patrol`, `Chase`, `Attack`, and `All` at the join. |
+| **Systems** | `Get Position`, `Get LookVector`, `Scanning`, `Pathfind Target Once`, `Continuous Target Pathfinding`, `Continuous Move to Target`, `Move to Target Once`, `Moving`, `Attacking`, `Cooldown`. |
+| **Tags / Components** | `CanMove`, `CanScan`, `CanDamage`, `CanPathfind`, `CanPathfindContinuously`, `CanLogPosition`, `CanLogLookVector`, `Cooldown`, `pair(Cooldown, any)`. |
+| **Queries** | `Twisted query` (`Position`, `LookVector`, `CanScan`) and `Player query` (`Position`, `IsPlaying`). A system only sees what its query returns. |
+| **Data written by systems** | `Position : Vector3`, `LookVector : Vector3`, `Waypoints : {Vector3}`, `NextWaypoint : Vector3`, `EndPosition : Vector3`, `AgentRadius : Dict`, `Damage : number`. |
 | **Events** | `Blocked Path`, `CanPathfind` — what a system emits instead of calling another system directly. |
-| **Required System Order** | The read order that must hold: position and look vector first, then scan, attack, pathfind, move. Wrong order reads last frame's data. |
-| **Queries** | `Twisted query` (component set that crosses states) and `Player query` (`Position`, `IsPlaying`). A system only sees what its query returns. |
+| **Conditions** | `if player is detected`, `if number > 0`, `if number <= 0` — the guards that sit between a query and an action. |
+| **State changes** | `pair(State, Idle / Patrol / Chase / Attack)` written by a query, and `pair(ChangeState, Idle / Patrol / Chase / Attack / any)` applied in one place. |
 
 ## The three decisions worth reading
 
@@ -31,6 +33,8 @@ Read it at full size: the bands run left to right, one column per concern.
 ## Status
 
 Design only. This repository holds the diagram; it does not claim a finished implementation. The value is the ordering and the query boundaries — those are the parts that are expensive to change later.
+
+The first version stacked three copies of the same table — present, added/changed, removed — which made the same label appear three times and left section headers sitting inside each other's rows. This version keeps one copy of each concept, puts the bands in reading order, and folds the per-state deltas into the tags and state-change bands. The per-state "what gets added, what gets removed" detail is not shown here; that is the next diagram.
 
 ## Next
 

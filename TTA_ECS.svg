@@ -1,311 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="5720" height="4800" viewBox="0 -680 5720 4800">
-<rect x="0" y="-680" width="5720" height="4800" fill="#ffffff"/>
-<rect x="40" y="40" width="5640" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2860" y="87.75" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2860" dy="0">Tarnished AI</tspan></text>
-<rect x="1320" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1380" y="305.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1380" dy="0">Continuous</tspan><tspan x="1380" dy="19.2">Target</tspan><tspan x="1380" dy="19.2">Pathfinding</tspan></text>
-<rect x="1960" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">Scanning</tspan></text>
-<rect x="40" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="100" dy="0">Idle</tspan></text>
-<rect x="200" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Patrol</tspan></text>
-<rect x="360" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Chase</tspan></text>
-<rect x="520" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="580" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="580" dy="0">Attack</tspan></text>
-<rect x="2120" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">Attacking</tspan></text>
-<rect x="1800" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1860" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1860" dy="0">Move to</tspan><tspan x="1860" dy="19.2">Target Once</tspan></text>
-<rect x="40" y="160" width="1240" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="660" y="206.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="660" dy="0">States</tspan></text>
-<rect x="1320" y="160" width="3160" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2900" y="206.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2900" dy="0">Systems</tspan></text>
-<rect x="5160" y="160" width="520" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="5420" y="206.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="5420" dy="0">Data</tspan></text>
-<rect x="40" y="400" width="1240" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="660" y="446.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="660" dy="0">Necessary Mechanics</tspan></text>
-<rect x="1320" y="400" width="3120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2880" y="446.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2880" dy="0">Necessary Data</tspan></text>
-<rect x="40" y="520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="100" dy="0">Scanning</tspan></text>
-<rect x="200" y="520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="555.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">PathfindingO</tspan><tspan x="260" dy="19.2">nce</tspan></text>
-<rect x="200" y="640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Moving</tspan></text>
-<rect x="200" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Scanning</tspan></text>
-<rect x="360" y="520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="555.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">ContinuousPa</tspan><tspan x="420" dy="19.2">thfinding</tspan></text>
-<rect x="360" y="640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Moving</tspan></text>
-<rect x="360" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Scanning</tspan></text>
-<rect x="520" y="520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="580" y="564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="580" dy="0">Attacking</tspan></text>
-<rect x="1480" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1540" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1540" dy="0">CanPathfind</tspan></text>
-<rect x="1360" y="520" width="3040" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2880" y="566.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2880" dy="0">Tags / Components</tspan></text>
-<rect x="1640" y="760" width="280" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1780" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1780" dy="0">CanMove</tspan></text>
-<rect x="2120" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanDamage</tspan></text>
-<rect x="1400" y="640" width="2960" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2880" y="686.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2880" dy="0">Required</tspan></text>
-<rect x="1320" y="1000" width="280" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1460" y="1044.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1460" dy="0">Position : Vector3</tspan></text>
-<rect x="1480" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1540" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1540" dy="0">Pathfind</tspan><tspan x="1540" dy="19.2">Target Once</tspan></text>
-<rect x="1320" y="880" width="280" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1460" y="924.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1460" dy="0">AgentRadius : Dict</tspan></text>
-<rect x="1400" y="1960" width="2950" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2875" y="2006.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2875" dy="0">Added / Changed</tspan></text>
-<rect x="1320" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1380" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1380" dy="0">NextWaypoint</tspan><tspan x="1380" dy="19.2">: Vector3</tspan></text>
-<rect x="1320" y="1120" width="280" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1460" y="1164.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1460" dy="0">EndPosition : Vector3</tspan></text>
-<rect x="1480" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1540" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1540" dy="0">Waypoints :</tspan><tspan x="1540" dy="19.2">{Vector3}</tspan></text>
-<rect x="2280" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2340" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2340" dy="0">Get Position</tspan></text>
-<rect x="2280" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2340" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2340" dy="0">Position :</tspan><tspan x="2340" dy="19.2">Vector3</tspan></text>
-<rect x="2280" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2340" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2340" dy="0">Position :</tspan><tspan x="2340" dy="19.2">Vector3</tspan></text>
-<rect x="4520" y="160" width="600" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4820" y="206.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="4820" dy="0">Events</tspan></text>
-<rect x="4520" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4580" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="4580" dy="0">Blocked Path</tspan></text>
-<rect x="4520" y="520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4580" y="564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="4580" dy="0">CanPathfind</tspan></text>
-<rect x="4520" y="400" width="600" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4820" y="446.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="4820" dy="0">Added / Changed</tspan></text>
-<rect x="1400" y="3160" width="2950" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2875" y="3206.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2875" dy="0">Removed</tspan></text>
-<rect x="1480" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1540" y="3324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1540" dy="0">CanPathfind</tspan></text>
-<rect x="1800" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1860" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1860" dy="0">Waypoints :</tspan><tspan x="1860" dy="19.2">{Vector3}</tspan></text>
-<rect x="1640" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1700" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1700" dy="0">NextWaypoint</tspan><tspan x="1700" dy="19.2">: Vector3</tspan></text>
-<rect x="1320" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1380" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1380" dy="0">CanPathfindC</tspan><tspan x="1380" dy="19.2">ontinuously</tspan></text>
-<rect x="4520" y="880" width="600" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4820" y="926.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="4820" dy="0">Removed</tspan></text>
-<rect x="2280" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2340" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2340" dy="0">CanLogPositi</tspan><tspan x="2340" dy="19.2">on</tspan></text>
-<rect x="680" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="740" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="740" dy="0">All</tspan></text>
-<rect x="40" y="640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="100" dy="0">Get Position</tspan></text>
-<rect x="200" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="924.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Get Position</tspan></text>
-<rect x="360" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="924.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Get Position</tspan></text>
-<rect x="40" y="-200" width="2880" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1480" y="-153.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="1480" dy="0">Required System Order</tspan></text>
-<rect x="40" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="-35.35" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="100" dy="0">Get Position</tspan></text>
-<rect x="840" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="900" y="-54.55" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="900" dy="0">Continuous</tspan><tspan x="900" dy="19.2">Target</tspan><tspan x="900" dy="19.2">Pathfinding</tspan></text>
-<rect x="680" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="740" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="740" dy="0">Pathfind</tspan><tspan x="740" dy="19.2">Target Once</tspan></text>
-<rect x="360" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="-35.35" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Scanning</tspan></text>
-<rect x="520" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="580" y="-35.35" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="580" dy="0">Attacking</tspan></text>
-<rect x="1000" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1060" y="-35.35" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1060" dy="0">Moving</tspan></text>
-<rect x="1640" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1700" y="305.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1700" dy="0">Continuous</tspan><tspan x="1700" dy="19.2">Move to</tspan><tspan x="1700" dy="19.2">Target</tspan></text>
-<rect x="4520" y="1000" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="4580" y="1035.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="4580" dy="0">Waypoints :</tspan><tspan x="4580" dy="19.2">{Vector3}</tspan></text>
-<rect x="2120" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">Damage :</tspan><tspan x="2180" dy="19.2">number</tspan></text>
-<rect x="2120" y="3400" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3435.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanPathfindC</tspan><tspan x="2180" dy="19.2">ontinuously</tspan></text>
-<rect x="2120" y="3520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanPathfind</tspan></text>
-<rect x="2120" y="3640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanMove</tspan></text>
-<rect x="2120" y="3760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanScan</tspan></text>
-<rect x="2120" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanDamage</tspan></text>
-<rect x="2120" y="3880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="3915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanLogPositi</tspan><tspan x="2180" dy="19.2">on</tspan></text>
-<rect x="2440" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="324.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">Cooldown</tspan></text>
-<rect x="2440" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="785.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">pair(Cooldow</tspan><tspan x="2500" dy="19.2">n, any) :</tspan><tspan x="2500" dy="19.2">number</tspan></text>
-<rect x="2440" y="2180" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="2215.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">pair(Cooldow</tspan><tspan x="2500" dy="19.2">n, any) :</tspan><tspan x="2500" dy="19.2">number</tspan></text>
-<rect x="2440" y="3380" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="3415.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">pair(Cooldow</tspan><tspan x="2500" dy="19.2">n, any) :</tspan><tspan x="2500" dy="19.2">number</tspan></text>
-<rect x="2440" y="2080" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="2125.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">if number &gt;</tspan><tspan x="2500" dy="19.2">0</tspan></text>
-<rect x="2440" y="3280" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2500" y="3325.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2500" dy="0">if number &lt;=</tspan><tspan x="2500" dy="19.2">0</tspan></text>
-<rect x="1960" y="1000" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="1035.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">Position :</tspan><tspan x="2020" dy="19.2">Vector3</tspan></text>
-<rect x="1960" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="793.4" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2020" dy="0">Twisted</tspan><tspan x="2020" dy="25.6">query</tspan></text>
-<rect x="1960" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="924.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">CanScan</tspan></text>
-<rect x="1960" y="1240" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="1273.4" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="2020" dy="0">Player</tspan><tspan x="2020" dy="25.6">query</tspan></text>
-<rect x="1960" y="1480" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="1515.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">Position :</tspan><tspan x="2020" dy="19.2">Vector3</tspan></text>
-<rect x="1960" y="1360" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="1404.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">IsPlaying</tspan></text>
-<rect x="1960" y="1120" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="1155.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">LookVector :</tspan><tspan x="2020" dy="19.2">Vector3</tspan></text>
-<rect x="2600" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2660" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2660" dy="0">Get</tspan><tspan x="2660" dy="19.2">LookVector</tspan></text>
-<rect x="2600" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2660" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2660" dy="0">CanLogLookVe</tspan><tspan x="2660" dy="19.2">ctor</tspan></text>
-<rect x="2600" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2660" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2660" dy="0">LookVector :</tspan><tspan x="2660" dy="19.2">Vector3</tspan></text>
-<rect x="40" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="100" dy="0">Get</tspan><tspan x="100" dy="19.2">LookVector</tspan></text>
-<rect x="200" y="1000" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="1035.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Get</tspan><tspan x="260" dy="19.2">LookVector</tspan></text>
-<rect x="360" y="1000" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="420" y="1035.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="420" dy="0">Get</tspan><tspan x="420" dy="19.2">LookVector</tspan></text>
-<rect x="2120" y="4000" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="4035.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">CanLogLookVe</tspan><tspan x="2180" dy="19.2">ctor</tspan></text>
-<rect x="200" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="260" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="260" dy="0">Get</tspan><tspan x="260" dy="19.2">LookVector</tspan></text>
-<rect x="1960" y="2080" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="2125.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">if player is</tspan><tspan x="2020" dy="19.2">detected</tspan></text>
-<rect x="1960" y="2180" width="120" height="100" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="2225.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">pair(State,</tspan><tspan x="2020" dy="19.2">Chase)</tspan></text>
-<rect x="2760" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2820" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2820" dy="0">pair(ChangeS</tspan><tspan x="2820" dy="19.2">tate, Idle)</tspan></text>
-<rect x="2750" y="2200" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2810" y="2244.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2810" dy="0">Scanning</tspan></text>
-<rect x="2910" y="2200" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2235.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">PathfindingO</tspan><tspan x="2970" dy="19.2">nce</tspan></text>
-<rect x="2910" y="2320" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2364.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">Moving</tspan></text>
-<rect x="2910" y="2440" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2484.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">Scanning</tspan></text>
-<rect x="3070" y="2200" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2235.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">ContinuousPa</tspan><tspan x="3130" dy="19.2">thfinding</tspan></text>
-<rect x="3070" y="2320" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2364.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">Moving</tspan></text>
-<rect x="3070" y="2440" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2484.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">Scanning</tspan></text>
-<rect x="3230" y="2200" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3290" y="2244.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3290" dy="0">Attacking</tspan></text>
-<rect x="2750" y="2320" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2810" y="2364.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2810" dy="0">Get Position</tspan></text>
-<rect x="2910" y="2560" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2604.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">Get Position</tspan></text>
-<rect x="3070" y="2560" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2604.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">Get Position</tspan></text>
-<rect x="2750" y="2440" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2810" y="2475.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2810" dy="0">Get</tspan><tspan x="2810" dy="19.2">LookVector</tspan></text>
-<rect x="2910" y="2680" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2715.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">Get</tspan><tspan x="2970" dy="19.2">LookVector</tspan></text>
-<rect x="3070" y="2680" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2715.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">Get</tspan><tspan x="3130" dy="19.2">LookVector</tspan></text>
-<rect x="3240" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3300" y="785.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3300" dy="0">pair(ChangeS</tspan><tspan x="3300" dy="19.2">tate,</tspan><tspan x="3300" dy="19.2">Attack)</tspan></text>
-<rect x="2920" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2980" y="785.45" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2980" dy="0">pair(ChangeS</tspan><tspan x="2980" dy="19.2">tate,</tspan><tspan x="2980" dy="19.2">Patrol)</tspan></text>
-<rect x="3080" y="760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3140" y="795.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3140" dy="0">pair(ChangeS</tspan><tspan x="3140" dy="19.2">tate, Chase)</tspan></text>
-<rect x="3070" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3130" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3130" dy="0">pair(State,</tspan><tspan x="3130" dy="19.2">Chase)</tspan></text>
-<rect x="2750" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2810" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2810" dy="0">pair(State,</tspan><tspan x="2810" dy="19.2">Idle)</tspan></text>
-<rect x="2910" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2970" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2970" dy="0">pair(State,</tspan><tspan x="2970" dy="19.2">Patrol)</tspan></text>
-<rect x="1800" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1860" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1860" dy="0">Apply Idle</tspan><tspan x="1860" dy="19.2">Behavior</tspan></text>
-<rect x="1960" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2020" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2020" dy="0">Apply Patrol</tspan><tspan x="2020" dy="19.2">Behavior</tspan></text>
-<rect x="2120" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2180" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2180" dy="0">Apply Chase</tspan><tspan x="2180" dy="19.2">Behavior</tspan></text>
-<rect x="2280" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2340" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2340" dy="0">Apply Attack</tspan><tspan x="2340" dy="19.2">Behavior</tspan></text>
-<rect x="40" y="-640" width="520" height="400" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="300" y="-435.35" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="300" dy="0">3 Squares + each gap</tspan></text>
-<rect x="2760" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2820" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2820" dy="0">Apply Idle</tspan><tspan x="2820" dy="19.2">Behavior</tspan></text>
-<rect x="2920" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="2980" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="2980" dy="0">Apply Patrol</tspan><tspan x="2980" dy="19.2">Behavior</tspan></text>
-<rect x="3080" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3140" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3140" dy="0">Apply Chase</tspan><tspan x="3140" dy="19.2">Behavior</tspan></text>
-<rect x="3240" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3300" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3300" dy="0">Apply Attack</tspan><tspan x="3300" dy="19.2">Behavior</tspan></text>
-<rect x="3400" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">Rid Idle</tspan><tspan x="3460" dy="19.2">Behavior</tspan></text>
-<rect x="3230" y="2080" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3290" y="2115.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3290" dy="0">pair(State,</tspan><tspan x="3290" dy="19.2">Attack)</tspan></text>
-<rect x="3400" y="760" width="600" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3700" y="804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3700" dy="0">pair(ChangeState, any)</tspan></text>
-<rect x="3400" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">pair(State,</tspan><tspan x="3460" dy="19.2">Idle)</tspan></text>
-<rect x="3560" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">Rid Patrol</tspan><tspan x="3620" dy="19.2">Behavior</tspan></text>
-<rect x="3720" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">Rid Chase</tspan><tspan x="3780" dy="19.2">Behavior</tspan></text>
-<rect x="3880" y="280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3940" y="315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3940" dy="0">Rid Attack</tspan><tspan x="3940" dy="19.2">Behavior</tspan></text>
-<rect x="3560" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">pair(State,</tspan><tspan x="3620" dy="19.2">Patrol)</tspan></text>
-<rect x="3720" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">pair(State,</tspan><tspan x="3780" dy="19.2">Chase)</tspan></text>
-<rect x="3880" y="880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3940" y="915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3940" dy="0">pair(State,</tspan><tspan x="3940" dy="19.2">Attack)</tspan></text>
-<rect x="1160" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1220" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1220" dy="0">Rid Idle</tspan><tspan x="1220" dy="19.2">Behavior</tspan></text>
-<rect x="1320" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1380" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1380" dy="0">Rid Patrol</tspan><tspan x="1380" dy="19.2">Behavior</tspan></text>
-<rect x="1480" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1540" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1540" dy="0">Rid Chase</tspan><tspan x="1540" dy="19.2">Behavior</tspan></text>
-<rect x="1640" y="-80" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="1700" y="-44.95" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="1700" dy="0">Rid Attack</tspan><tspan x="1700" dy="19.2">Behavior</tspan></text>
-<rect x="3400" y="3400" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="3444.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">Scanning</tspan></text>
-<rect x="3560" y="3400" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3435.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">PathfindingO</tspan><tspan x="3620" dy="19.2">nce</tspan></text>
-<rect x="3560" y="3520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">Moving</tspan></text>
-<rect x="3560" y="3640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">Scanning</tspan></text>
-<rect x="3720" y="3400" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3435.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">ContinuousPa</tspan><tspan x="3780" dy="19.2">thfinding</tspan></text>
-<rect x="3720" y="3520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">Moving</tspan></text>
-<rect x="3720" y="3640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3684.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">Scanning</tspan></text>
-<rect x="3880" y="3400" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3940" y="3444.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3940" dy="0">Attacking</tspan></text>
-<rect x="3400" y="3520" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="3564.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">Get Position</tspan></text>
-<rect x="3560" y="3760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">Get Position</tspan></text>
-<rect x="3720" y="3760" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3804.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">Get Position</tspan></text>
-<rect x="3400" y="3640" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="3675.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">Get</tspan><tspan x="3460" dy="19.2">LookVector</tspan></text>
-<rect x="3560" y="3880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">Get</tspan><tspan x="3620" dy="19.2">LookVector</tspan></text>
-<rect x="3720" y="3880" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3915.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">Get</tspan><tspan x="3780" dy="19.2">LookVector</tspan></text>
-<rect x="3720" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3780" y="3315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3780" dy="0">pair(State,</tspan><tspan x="3780" dy="19.2">Chase)</tspan></text>
-<rect x="3400" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3460" y="3315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3460" dy="0">pair(State,</tspan><tspan x="3460" dy="19.2">Idle)</tspan></text>
-<rect x="3560" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3620" y="3315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3620" dy="0">pair(State,</tspan><tspan x="3620" dy="19.2">Patrol)</tspan></text>
-<rect x="3880" y="3280" width="120" height="80" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="3940" y="3315.05" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle"><tspan x="3940" dy="0">pair(State,</tspan><tspan x="3940" dy="19.2">Attack)</tspan></text>
-<path d="M2500,2180 L2500,2200 m-5,-9 l5,9 l-5,9" fill="none" stroke="#000000" stroke-width="1.5"/>
-<path d="M2500,3380 L2500,3400 m-5,-9 l5,9 l-5,9" fill="none" stroke="#000000" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="2992" height="1546" viewBox="0 0 2992 1546">
+<rect x="0" y="0" width="2992" height="1546" fill="#ffffff"/>
+<rect x="40" y="40" width="2912" height="64" fill="#1f2328" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1496" y="78.82" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle"><tspan x="1496" dy="0">Tarnished AI — ECS architecture</tspan></text>
+<rect x="40" y="138" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="162.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Required system order — left to right</tspan></text>
+<rect x="40" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">Get Position</tspan></text>
+<rect x="236" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">Get LookVector</tspan></text>
+<rect x="432" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Scanning</tspan></text>
+<rect x="628" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">Attacking</tspan></text>
+<rect x="824" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">Pathfind Target Once</tspan></text>
+<rect x="1020" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1104" y="218.71" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">Continuous Target</tspan><tspan x="1104" dy="16.64">Pathfinding</tspan></text>
+<rect x="1216" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1300" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">Moving</tspan></text>
+<rect x="1412" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1496" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1496" dy="0">Rid Idle Behavior</tspan></text>
+<rect x="1608" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1692" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1692" dy="0">Rid Patrol Behavior</tspan></text>
+<rect x="1804" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1888" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1888" dy="0">Rid Chase Behavior</tspan></text>
+<rect x="2000" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="2084" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="2084" dy="0">Rid Attack Behavior</tspan></text>
+<rect x="2196" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="2280" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="2280" dy="0">Apply Idle Behavior</tspan></text>
+<rect x="2392" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="2476" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="2476" dy="0">Apply Patrol Behavior</tspan></text>
+<rect x="2588" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="2672" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="2672" dy="0">Apply Chase Behavior</tspan></text>
+<rect x="2784" y="194" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="2868" y="227.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="2868" dy="0">Apply Attack Behavior</tspan></text>
+<rect x="40" y="286" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="310.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">States</tspan></text>
+<rect x="40" y="342" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="375.03000000000003" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">Idle</tspan></text>
+<rect x="236" y="342" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="375.03000000000003" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">Patrol</tspan></text>
+<rect x="432" y="342" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="375.03000000000003" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Chase</tspan></text>
+<rect x="628" y="342" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="375.03000000000003" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">Attack</tspan></text>
+<rect x="824" y="342" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="375.03000000000003" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">All</tspan></text>
+<rect x="40" y="434" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="458.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Systems</tspan></text>
+<rect x="40" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">Get Position</tspan></text>
+<rect x="236" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">Get LookVector</tspan></text>
+<rect x="432" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Scanning</tspan></text>
+<rect x="628" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">Pathfind Target Once</tspan></text>
+<rect x="824" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="514.71" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">Continuous Target</tspan><tspan x="908" dy="16.64">Pathfinding</tspan></text>
+<rect x="1020" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1104" y="514.71" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">Continuous Move to</tspan><tspan x="1104" dy="16.64">Target</tspan></text>
+<rect x="1216" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1300" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">Move to Target Once</tspan></text>
+<rect x="1412" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1496" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1496" dy="0">Moving</tspan></text>
+<rect x="1608" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1692" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1692" dy="0">Attacking</tspan></text>
+<rect x="1804" y="490" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1888" y="523.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1888" dy="0">Cooldown</tspan></text>
+<rect x="40" y="582" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="606.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Tags / Components</tspan></text>
+<rect x="40" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">CanMove</tspan></text>
+<rect x="236" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">CanScan</tspan></text>
+<rect x="432" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">CanDamage</tspan></text>
+<rect x="628" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">CanPathfind</tspan></text>
+<rect x="824" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="662.71" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">CanPathfindContinuous</tspan><tspan x="908" dy="16.64">ly</tspan></text>
+<rect x="1020" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1104" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">CanLogPosition</tspan></text>
+<rect x="1216" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1300" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">CanLogLookVector</tspan></text>
+<rect x="1412" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1496" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1496" dy="0">Cooldown</tspan></text>
+<rect x="1608" y="638" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1692" y="671.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1692" dy="0">pair(Cooldown, any)</tspan></text>
+<rect x="40" y="730" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="754.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Queries — a system only sees what its query returns</tspan></text>
+<rect x="40" y="786" width="364" height="58" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="222" y="819.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="222" dy="0">Twisted query</tspan></text>
+<rect x="432" y="786" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="819.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Position : Vector3</tspan></text>
+<rect x="628" y="786" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="819.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">LookVector : Vector3</tspan></text>
+<rect x="824" y="786" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="819.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">CanScan</tspan></text>
+<rect x="40" y="856" width="364" height="58" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="222" y="889.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" font-weight="bold" text-anchor="middle"><tspan x="222" dy="0">Player query</tspan></text>
+<rect x="432" y="856" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="889.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Position : Vector3</tspan></text>
+<rect x="628" y="856" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="889.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">IsPlaying</tspan></text>
+<rect x="40" y="948" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="972.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Data written by systems</tspan></text>
+<rect x="40" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">Position : Vector3</tspan></text>
+<rect x="236" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">LookVector : Vector3</tspan></text>
+<rect x="432" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">Waypoints : {Vector3}</tspan></text>
+<rect x="628" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="1028.71" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">NextWaypoint :</tspan><tspan x="712" dy="16.64">Vector3</tspan></text>
+<rect x="824" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">EndPosition : Vector3</tspan></text>
+<rect x="1020" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1104" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">AgentRadius : Dict</tspan></text>
+<rect x="1216" y="1004" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1300" y="1037.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">Damage : number</tspan></text>
+<rect x="40" y="1096" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="1120.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Events</tspan></text>
+<rect x="40" y="1152" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="1185.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">Blocked Path</tspan></text>
+<rect x="236" y="1152" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="1185.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">CanPathfind</tspan></text>
+<rect x="40" y="1244" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="1268.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">Conditions</tspan></text>
+<rect x="40" y="1300" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="1333.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">if player is detected</tspan></text>
+<rect x="236" y="1300" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="1333.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">if number &gt; 0</tspan></text>
+<rect x="432" y="1300" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="1333.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">if number &lt;= 0</tspan></text>
+<rect x="40" y="1392" width="2912" height="40" fill="#eaeef2" stroke="#8c959f" stroke-width="1.5"/>
+<text x="48" y="1416.65" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#000000" font-weight="bold" text-anchor="start"><tspan x="48" dy="0">State changes</tspan></text>
+<rect x="40" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="124" y="1481.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="124" dy="0">pair(State, Idle)</tspan></text>
+<rect x="236" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="320" y="1481.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="320" dy="0">pair(State, Patrol)</tspan></text>
+<rect x="432" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="516" y="1481.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="516" dy="0">pair(State, Chase)</tspan></text>
+<rect x="628" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="712" y="1481.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="712" dy="0">pair(State, Attack)</tspan></text>
+<rect x="824" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="908" y="1472.7099999999998" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="908" dy="0">pair(ChangeState,</tspan><tspan x="908" dy="16.64">Idle)</tspan></text>
+<rect x="1020" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1104" y="1472.7099999999998" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1104" dy="0">pair(ChangeState,</tspan><tspan x="1104" dy="16.64">Patrol)</tspan></text>
+<rect x="1216" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1300" y="1472.7099999999998" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1300" dy="0">pair(ChangeState,</tspan><tspan x="1300" dy="16.64">Chase)</tspan></text>
+<rect x="1412" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1496" y="1472.7099999999998" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1496" dy="0">pair(ChangeState,</tspan><tspan x="1496" dy="16.64">Attack)</tspan></text>
+<rect x="1608" y="1448" width="168" height="58" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="1692" y="1472.7099999999998" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle"><tspan x="1692" dy="0">pair(ChangeState,</tspan><tspan x="1692" dy="16.64">any)</tspan></text>
+<path d="M208,223 L227,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M236,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M404,223 L423,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M432,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M600,223 L619,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M628,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M796,223 L815,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M824,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M992,223 L1011,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M1020,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M1188,223 L1207,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M1216,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M1384,223 L1403,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M1412,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M1580,223 L1599,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M1608,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M1776,223 L1795,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M1804,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M1972,223 L1991,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M2000,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M2168,223 L2187,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M2196,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M2364,223 L2383,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M2392,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M2560,223 L2579,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M2588,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
+<path d="M2756,223 L2775,223" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<path d="M2784,223 l-9,-4.5 l0,9 z" fill="#57606a"/>
 </svg>
