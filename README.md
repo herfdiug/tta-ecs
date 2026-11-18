@@ -45,7 +45,7 @@ Prototype, not a finished game. The diagram is the design; a slice of it runs in
 
 **[Watch the clip — 45 s, no audio](media/tta-prototype.mp4)**
 
-Filmed in the test place with `Idle`, `Patrol` and `Chase` live. The cyan lines are the agent's debug drawing, still switched on: they are how you can see what it thinks it can see, and the dotted markers are its waypoints.
+Filmed in the test place with `Idle`, `Patrol` and `Chase` live. The cyan lines are the agent's debug drawing, still switched on — they are how you can see what it thinks it can see.
 
 What is not there yet is also the honest part: the place around it is half-built (placeholder objective text, no attack), and the debug output prints a value every frame instead of on a timer.
 
